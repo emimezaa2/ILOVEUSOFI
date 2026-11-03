@@ -150,7 +150,15 @@ function animateBass() {
 // ==========================================
 const PhotoRainEngine = {
     rainInterval: null,
-    photoList: ['fotos/Van01.jpg', 'fotos/Van2.jpg', 'fotos/Van3.jpg', 'fotos/Van4.jpg'],
+    photoList: [
+    'fotos/sof1.png',
+    'fotos/sof2.png',
+    'fotos/sof3.png',
+    'fotos/sof4.png',
+    'fotos/sof5.png',
+    'fotos/sof6.png',
+    'fotos/sofmain1.png'
+],
 
     start: function(speed = 800) {
         if (this.rainInterval || isFillingScreen) return;
